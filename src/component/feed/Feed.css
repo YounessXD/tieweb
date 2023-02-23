@@ -1,0 +1,30 @@
+.feed{
+
+    flex: 0.6;
+   
+}
+.feed__inputContainer{
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+.feed__input{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    border-radius: 20px;
+    color: gray;
+}
+.feed__input>input{
+    background:none;
+    outline: none;
+    border: none;
+}
+.feed__items{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+
+}

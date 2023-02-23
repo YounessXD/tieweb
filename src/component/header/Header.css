@@ -1,7 +1,12 @@
 .header{
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-evenly;
     border-bottom: 0.1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 .header__left{
@@ -33,5 +38,9 @@ color: gray;
 }
 .header__right{
     display: flex;
+    cursor: pointer;
+}
+.HeaderOptions:hover{
 
+    color: black;
 }

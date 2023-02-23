@@ -4,6 +4,7 @@ import HeaderOptions from './HeaderOptions'
 import SearchIcon from "@material-ui/icons/Search"
 import Home from "@material-ui/icons/Home"
 import { SupervisorAccount } from '@material-ui/icons'
+import { BusinessCenterSharp } from '@material-ui/icons'
 function Header() {
   return (
     <div className='header'>
@@ -17,8 +18,10 @@ function Header() {
 
      </div>
      <div className='header__right'>
-    <HeaderOptions Icon={Home} titel="home"/>
-    <HeaderOptions Icon={SupervisorAccount} titel="network"/>
+    <HeaderOptions Icon={Home} titel="Home"/>
+    <HeaderOptions Icon={SupervisorAccount} titel="NetWork"/>
+    <HeaderOptions Icon={BusinessCenterSharp} titel="Job"/>
+    <HeaderOptions avatar="https://pbs.twimg.com/profile_images/719715216427216899/gm3XfRBg_400x400.jpg" titel="ME"/>
 
 
 
