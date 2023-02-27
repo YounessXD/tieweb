@@ -7,12 +7,14 @@
     border-radius: 10px;
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 10px 12px 12px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #d6d6d6;
 }
 .feed__input{
-    margin: 10px 0px;
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid gray;
+    border: 1px solid #d6d6d6;
     display: flex;
     border-radius: 20px;
     color: gray;
