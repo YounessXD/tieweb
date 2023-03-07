@@ -14,7 +14,7 @@ export default function Post({profilename,postdate,photoUrl,message,description}
             <div className="post__profile__info">
               <a className="post__profile__name">gggggg</a>
               <a className="post__profile__dis" >dsadas</a>
-              <a className="post__profile__date" >1.2.2</a>  
+              <a className="post__profile__date" >{postdate}</a>  
             </div>
           </div>
         <MoreHoriz />

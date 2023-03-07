@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     border-bottom: 1px solid #d6d6d6;
+    background: #f3f2ef;
     padding-bottom: 10px;
     padding-top: 10px;
     width: 100%;

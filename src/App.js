@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './component/header/Header';
 import Sidebar from './component/sidebar/Sidebar';
 import Feed from './component/feed/Feed';
+import Post from './API/post';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,7 @@ function App() {
       <div className='App__body'>
        <Sidebar />
        <Feed />
-
+       {/* <Post/> */}
 
       </div>
       
