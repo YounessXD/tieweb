@@ -3,11 +3,14 @@ import React, { useEffect, useState } from 'react'
 import "./Feed.css"
 import FeedOptions from './FeedOptions'
 import Post from "../post/post"
-import http from '../../API/http'
+import AuthUser from '../../API/http'
+
 import axios from "axios"
 import { formatDate } from '../../core/ui/formatDate/formatDate'
 
+
 export default function Feed() {
+  const {http,setToken}=AuthUser();
   const [inputs ,setInputs] = useState({
     post:''
   });
